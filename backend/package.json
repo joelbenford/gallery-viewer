@@ -1,0 +1,25 @@
+{
+  "name": "shows",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "exiftool-vendored": "^36.0.0",
+    "fastify": "^5.8.5",
+    "fastify-plugin": "^6.0.0"
+  }
+}

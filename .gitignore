@@ -1,0 +1,11 @@
+# Node dependencies cache folders
+node_modules/
+.vite/
+
+# Local server configurations and hidden cache sheets
+backend/settings.json
+.hdr_gallery_cache.json
+
+# Local OS metadata tracks
+.DS_Store
+Thumbs.db

@@ -85,6 +85,6 @@ Double-click the **`launch-gallery.bat`** file floating in your root workspace. 
 
 ## 💡 Technical Notes for Adobe Lightroom Exports
 
-If properties like Shutter Speed or Aperture show up as **Unknown** on certain high-fidelity files (such as high-dynamic-range panoramic images or AVIF configurations), it means Lightroom stripped the camera properties during the export save process [INDEX]. 
+If properties like Shutter Speed or Aperture show up as **Unknown** on certain high-fidelity files (such as high-dynamic-range panoramic images or AVIF configurations), it means Lightroom stripped the camera properties during the export save process. 
 
-To prevent this, ensure that inside Lightroom Classic's Export menu, the **Metadata** panel dropdown is set to **"All Metadata"** and that **"Remove Camera Info"** remains completely **unchecked** [INDEX].
+To prevent this, ensure that inside Lightroom Classic's Export menu, the **Metadata** panel dropdown is set to **"All Metadata"** and that **"Remove Camera Info"** remains completely **unchecked**.
